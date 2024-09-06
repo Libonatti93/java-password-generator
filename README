@@ -1,0 +1,24 @@
+Project Structure
+PasswordGenerator: Main class that contains the method for generating passwords based on user preferences.
+User Interface: Command line interface to allow the user to specify options for password generation.
+
+Code Explanation
+Defining Character Sets:
+
+There are four character sets: lowercase letters, uppercase letters, numbers, and symbols.
+The generator starts with lowercase letters and adds the other sets based on the user's preferences.
+User Input:
+
+The user is prompted to specify the length of the password and whether to include uppercase letters, numbers, and symbols.
+Password Generation:
+
+Uses SecureRandom to generate a password securely.
+The generatePassword method constructs the password using the selected character sets and the specified length.
+Using SecureRandom:
+
+The SecureRandom class is used to ensure that the password is generated randomly and securely.
+How to Run the Project
+Compile the PasswordGenerator.java file.
+Run the program:
+The program will prompt you for the length of the password and whether to include uppercase letters, numbers, and symbols.
+After providing the information, the program will generate and display the password.
